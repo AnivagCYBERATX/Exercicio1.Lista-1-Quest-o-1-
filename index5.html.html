@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 1 – Questão 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .country-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .country {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .country img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .country a {
+            display: block;
+            color: #007BFF;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .country a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Países Perfeito para Visitar!!!</h1>
+    <h2>Bandeiras Favoritas e Informações de pontos turísticos.</h2>
+
+    <div class="country-container">
+        <!-- País: Brasil -->
+        <div class="country">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil">
+            <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a>
+            <p>Pontos turísticos: Cristo Redentor, Cataratas do Iguaçu, Pão de Açúcar.</p>
+        </div>
+
+        <!-- País: Japão -->
+        <div class="country">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" alt="Bandeira do Japão">
+            <a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank">Japão</a>
+            <p>Pontos turísticos: Monte Fuji, Templo de Kyoto, Shibuya.</p>
+        </div>
+
+        <!-- País: China -->
+        <div class="country">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_China.png" alt="Bandeira da China">
+            <a href="https://pt.wikipedia.org/wiki/China" target="_blank">China</a>
+            <p>Pontos turísticos: Grande Muralha, Cidade Proibida, Exército de Terracota.</p>
+        </div>
+    </div>
+
+</body>
+</html>

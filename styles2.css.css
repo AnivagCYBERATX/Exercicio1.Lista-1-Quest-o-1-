@@ -1,0 +1,90 @@
+/* Estilo geral do documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #B8860B; /* Dourado */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFD700; /* Destaque dourado */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #FFD700; /* Texto principal em dourado */
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); /* Cor do arco-íris */
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.7); /* Sombra dourada */
+    transition: all 0.3s ease;
+}
+
+main section p:hover {
+    transform: scale(1.05);
+}
+
+/* Seção de informações com bordas separadas */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.info-box {
+    background-color: #444;
+    padding: 20px;
+    border: 3px solid #FFD700; /* Bordas em dourado escuro */
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.5); /* Sombra fênix dourada */
+    transition: transform 0.3s;
+}
+
+.info-box h2 {
+    font-size: 1.5em;
+    color: #FFD700; /* Dourado escuro estilo fênix dourada */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1.1em;
+    color: #FFD700; /* Dourado escuro no parágrafo */
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(255, 215, 0, 0.7); /* Sombra mais intensa ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #B8860B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #FFD700;
+}

@@ -1,0 +1,105 @@
+/* Estilo geral do documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho com título chamativo */
+header {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #00008b 50%, #fff 50%); /* Metade azul negro com ondas brancas */
+    border-bottom: 5px solid #00ffff;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #00ff00; /* Texto verde chamativo */
+    text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.7);
+}
+
+.subheader {
+    font-size: 1.5em;
+    color: #ff4500; /* Texto RGB vibrante */
+}
+
+/* Seção de questões */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.question h2 {
+    font-size: 2em;
+    color: #ffcc00; /* Títulos em dourado chamativo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    background: linear-gradient(90deg, red, green, blue);
+    background-clip: text;
+    color: transparent; /* Texto com efeito RGB */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ffcc00;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #00ffff; /* Texto destacado */
+}
+
+/* Seção de exemplos com caixas */
+.examples {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.example-box {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border: 3px solid #00ff00; /* Borda verde chamativa */
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.5);
+}
+
+.example-box h3 {
+    font-size: 1.8em;
+    color: #00ffff; /* Títulos chamativos nas caixas */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.example-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.example-box ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 255, 255, 0.7);
+}
+
+/* Rodapé */
+footer {
+    background-color: #00008b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #00ffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
